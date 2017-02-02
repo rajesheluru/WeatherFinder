@@ -11,7 +11,7 @@ Array.prototype.contains = function(obj) {
     }
     return false;
 }
-
+//cheking for git integration in vs code
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
